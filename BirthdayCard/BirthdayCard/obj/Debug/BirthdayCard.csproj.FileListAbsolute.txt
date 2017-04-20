@@ -1,0 +1,17 @@
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\BirthdayCard.dll.config
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\BirthdayCard.dll
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\BirthdayCard.pdb
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Helpers.dll
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Mvc.dll
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Razor.dll
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Webpages.Deployment.dll
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Webpages.dll
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Webpages.Razor.dll
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Razor.xml
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Webpages.xml
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Webpages.Deployment.xml
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Webpages.Razor.xml
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Helpers.xml
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\bin\System.Web.Mvc.xml
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\obj\Debug\BirthdayCard.dll
+\\msrv01\personal\ebogutskyi\Documents\GitHub\CSHP-230-D\BirthdayCard\BirthdayCard\obj\Debug\BirthdayCard.pdb

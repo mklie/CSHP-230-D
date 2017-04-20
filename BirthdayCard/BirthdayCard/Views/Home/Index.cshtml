@@ -1,0 +1,53 @@
+﻿@model BirthdayCard.Models.Greeting
+<head>
+    <meta name="viewport" content="width=device-width" /> 
+    <link rel="stylesheet" type="text/css" href="~/content/styles.css" />
+    <link rel="stylesheet" type="text/css" href="~/content/bootstrap.css" />
+    <title>birthday card generator</title>
+
+    <style>
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header {
+            background-color: grey;
+            text-decoration: solid;
+            text-decoration-color: white;
+            
+        }
+
+        body {
+            background-color: #f1f1f1;
+        }
+        footer{
+            
+        }
+    </style>
+
+</head>
+
+@{
+    Layout = null;
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+        <header class="text-left">Birthday card generator</header>
+    
+        <h4 class="panel-heading text-left">Send a Birthday Card</h4>
+        
+        <p><label>From:</label>@Html.TextBoxFor(t => t.From, new { @class = "form-control", maxlength = 20, style = "width:200px;" })</p>
+        <p><label>To:</label> @Html.TextBoxFor(t => t.To, new { @class = "form-control", maxlength = 20, style = "width:200px;" })</p>
+        <p><label>Message:</label> @Html.TextBoxFor(t => t.Message, new { @class = "form-control", maxlength = 50, style = "width:200px;" })</p>
+
+    <input type="submit" class="btn btn-success" value="Send Card" />
+   
+        <hr />
+        <footer class="text-left">
+             &copy; @DateTime.Now.Year - My ASP.NET Application
+        </footer>
+    
+}

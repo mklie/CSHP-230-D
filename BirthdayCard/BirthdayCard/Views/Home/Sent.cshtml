@@ -1,0 +1,39 @@
+﻿@model BirthdayCard.Models.Greeting
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/styles.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+    <title>Sent</title>
+
+    <style>
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+        header {
+            background-color: grey;
+            text-decoration: solid;
+            text-decoration-color: white;
+        }
+        body {
+            background-color: #f1f1f1;
+        }
+    </style>
+
+</head>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<header class="text-left">Birthday card generator</header>
+<h4 class="panel-heading text-left">Birthday Card Sent!</h4>
+<p>From: @Model.From</p>
+<p>To: @Model.To</p>
+<p>Message: @Model.Message</p>
+
+    <hr />
+    <footer class ="text-left">
+        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+    </footer>
