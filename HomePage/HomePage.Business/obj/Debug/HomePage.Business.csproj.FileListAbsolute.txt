@@ -1,0 +1,9 @@
+C:\Users\ebogutskyi\Pictures\HomePage\HomePage.Business\bin\Debug\HomePage.Business.dll
+C:\Users\ebogutskyi\Pictures\HomePage\HomePage.Business\bin\Debug\HomePage.Business.pdb
+C:\Users\ebogutskyi\Pictures\HomePage\HomePage.Business\bin\Debug\HomePageEF.dll
+C:\Users\ebogutskyi\Pictures\HomePage\HomePage.Business\bin\Debug\EntityFramework.dll
+C:\Users\ebogutskyi\Pictures\HomePage\HomePage.Business\bin\Debug\HomePageEF.pdb
+C:\Users\ebogutskyi\Pictures\HomePage\HomePage.Business\bin\Debug\EntityFramework.xml
+C:\Users\ebogutskyi\Pictures\HomePage\HomePage.Business\obj\Debug\HomePage.Business.csprojResolveAssemblyReference.cache
+C:\Users\ebogutskyi\Pictures\HomePage\HomePage.Business\obj\Debug\HomePage.Business.dll
+C:\Users\ebogutskyi\Pictures\HomePage\HomePage.Business\obj\Debug\HomePage.Business.pdb

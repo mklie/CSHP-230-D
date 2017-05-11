@@ -1,0 +1,24 @@
+﻿@model HomePage.Models.Course[]
+
+@{
+    ViewBag.Title = "Classes";
+}
+
+@if (Model.Length > 0)
+{
+    <table>
+        @foreach (var course in Model)
+        {
+            <tr>
+                <td>@course.ClassId</td>
+                <td>@course.ClassName</td>
+                <td>@course.ClassDescription</td>
+                <td>@course.ClassPrice</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <h2>No product data found.</h2>
+}

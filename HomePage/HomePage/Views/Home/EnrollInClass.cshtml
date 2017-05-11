@@ -1,0 +1,40 @@
+﻿@model HomePage.Models.IndexModel
+
+@{
+    ViewBag.Title = "Enroll in Class";
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Name")
+        </th>
+        <th>
+            @Html.Label("Description")
+        </th>
+        <th>
+            @Html.Label("Price")
+        </th>
+
+        <th></th>
+    </tr>
+    @foreach (var p in Model.Courses)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => p.ClassName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => p.ClassDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => p.ClassPrice)
+            </td>
+            <td>
+                @Html.ActionLink("Enroll", "Enroll", p)
+            </td>
+
+
+        </tr>
+    }
+</table>

@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using HomePage.Models;
+using HomePage.Filters;
 
 namespace HomePage.Controllers
 {
@@ -55,6 +56,7 @@ namespace HomePage.Controllers
         //
         // GET: /Account/Login
         [AllowAnonymous]
+        [AuthorizeIPAddress]
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
